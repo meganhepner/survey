@@ -8,6 +8,36 @@
     <script src="js/scripts.js"></script>
   </head>
   <body>
-    <h1>Survey!</h1>
+    <div class="container">
+        <h1>Survey!</h1>
+        <form id="name">
+            <div class="form-group">
+                <label for="name">Enter your first name:</label>
+                <input id="name" class="form-control" type="text">
+            </div>
+
+            <div class="radio">
+                <label>
+                  <input type="radio" name="flavor" value="chocolate" checked>
+                  Chocolate
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="flavor" value="vanilla">
+                  Vanilla
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="flavor" value="cookiesandcream">
+                  Cookies & Cream
+                </label>
+              </div>
+
+            <button type="submit" class="btn">Submit</button>
+        </form>
+        <span class="name"></span>
+    </div>
   </body>
 </html>
