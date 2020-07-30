@@ -6,12 +6,11 @@
 #### By _**Megan Hepner**_
 
 ## Description
-  This is a short survey which uses Select Boxes, Radio Buttons, and the Date Input type and returns answers to the user.
+  This is a short survey which uses various form input types and returns entries to the user.
 
 
 ## Setup/Installation Requirements
 
-* use the terminal to clone this repository 
 * to clone this content, copy the url provided by the 'clone or download' button in GitHub
 * in terminal use the command 'git clone (GitHub url)'
 * open the content in a web browser
@@ -22,7 +21,7 @@ _For question, concerns, or if you would like to make contributions to this work
 
 ## Technologies Used
 
-Html, CSS, Bootstrap, Javascript, Jquery
+Html, Bootstrap, Javascript, Jquery
 
 ### License
 
